@@ -103,14 +103,8 @@
 			"warning": 30,
 			"critical": 15
 		},
-		"format": "{icon} {capacity}%",
-		"format-icons": [
-			"",
-			"",
-			"",
-			"",
-			""
-		]
+		"format": "PWR {capacity}%",
+
 	},
 	"disk": {
 		"interval": 5,
