@@ -1,8 +1,6 @@
+#!/bin/bash
 # ----------------------------------------------------- 
-# Applications
+# Float All Toggle
 # ----------------------------------------------------- 
 
-$terminal = alacritty
-$fileManager = thunar
-$menu = wofi --show drun
-$browser = firefox
+hyprctl dispatch workspaceopt allfloat
